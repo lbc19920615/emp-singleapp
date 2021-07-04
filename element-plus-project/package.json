@@ -1,15 +1,16 @@
 {
-  "name": "@empvue2/project",
+  "name": "@emp-elementplus/project",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "devDependencies": {
     "@efox/emp-cli": "^1.4.0",
-    "@efox/emp-vue2": "^1.0.0"
+    "@efox/emp-vue3": "^1.0.1"
   },
   "dependencies": {
-    "vue": "^2.6.12"
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.10"
   },
   "scripts": {
     "dev": "emp dev",

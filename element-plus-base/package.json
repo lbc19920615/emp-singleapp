@@ -1,17 +1,18 @@
 {
-  "name": "@empvue2/base",
+  "name": "@emp-elementplus/base",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "devDependencies": {
     "@efox/emp-cli": "^1.4.0",
-    "@efox/emp-vue2": "^1.2.2",
-    "vue-svg-loader": "^0.16.0",
-    "vue-template-compiler": "^2.6.12"
+    "@efox/emp-vue3": "^1.2.0"
   },
   "dependencies": {
-    "vue": "^2.6.12"
+    "element-plus": "^1.0.1-beta.0",
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.0-rc.5",
+    "vuex": "^4.0.0-rc.1"
   },
   "scripts": {
     "dev": "emp dev",
