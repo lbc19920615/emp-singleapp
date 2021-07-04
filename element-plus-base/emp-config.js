@@ -4,6 +4,7 @@ module.exports = withVue3(({config}) => {
   const port = 8813
   config.output.publicPath(`http://localhost:${port}/`)
   config.devServer.port(port)
+
   config.plugin('mf').tap(args => {
     args[0] = {
       ...args[0],

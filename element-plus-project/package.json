@@ -6,7 +6,10 @@
   "private": true,
   "devDependencies": {
     "@efox/emp-cli": "^1.4.0",
-    "@efox/emp-vue3": "^1.0.1"
+    "@efox/emp-vue3": "^1.0.1",
+    "pug": "^3.0.2",
+    "pug-html-loader": "^1.1.5",
+    "pug-plain-loader": "^1.1.0"
   },
   "dependencies": {
     "vue": "^3.0.2",

@@ -6,6 +6,13 @@ module.exports = withFrameWork(({config}) => {
   config.output.publicPath(`http://localhost:${port}/`)
   // config.output.publicPath(``)
   config.devServer.port(port)
+
+  config.module.rule('pug')
+    .test(/\.pug$/)
+    .use('pug-html-loader')
+    .loader('pug-html-loader')
+    .end()
+
   config.plugin('mf').tap(args => {
     args[0] = {
       ...args[0],
