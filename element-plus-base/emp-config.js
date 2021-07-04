@@ -18,6 +18,7 @@ module.exports = withVue3(({config}) => {
           './HelloWorld': './src/components/HelloWorld',
           './KunshanCase': './src/components/KunshanCase',
           './SuzhouCase': './src/components/SuzhouCase',
+          './expose': './src/expose',
           './element-plus/ElementPlus': 'element-plus/lib/index.esm',
           './element-plus/themeChalk': 'element-plus/lib/theme-chalk/index.css',
         },

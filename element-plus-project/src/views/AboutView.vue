@@ -14,13 +14,13 @@ $sel: "." + $tag;
 </template>
 
 <script>
-import KunshanCase from "@v3p/KunshanCase";
-import SuzhouCase from "@v3p/SuzhouCase";
+import expose from '@v3p/expose'
+console.log(expose)
 export default {
   name: "AboutView",
   components: {
-    KunshanCase,
-    SuzhouCase
+    KunshanCase: expose.KunshanCase,
+    SuzhouCase: expose.SuzhouCase,
   },
   data() {
     return {}
